@@ -1,0 +1,9 @@
+﻿<Window x:Class="CasinoApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Casino Table" Height="350" Width="525">
+    <Grid>
+        <ListBox Name="playersListBox" HorizontalAlignment="Left" Height="200" Margin="10,10,0,0" VerticalAlignment="Top" Width="480"/>
+        <Button Name="startButton" Content="Начать игру" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="100" Height="30" Margin="10,0,0,10" Click="StartButton_Click"/>
+    </Grid>
+</Window>
